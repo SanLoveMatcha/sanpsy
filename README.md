@@ -133,26 +133,25 @@ psyskill 的排查顺序：
 
 ## 如何安装 psyskill
 
-### Claude Code
-
-```bash
-claude plugin marketplace add dontbesilent2025/psyskill
-claude plugin install psy@dontbesilent-skills
-```
-
 ### 通用安装方式（适用于 Codex / Claude Code）
 
 ```bash
-npx -y skills add dontbesilent2025/psyskill -g --all
+npx -y skills add SanLoveMatcha/sanpsy -g --all
 ```
+
+> 这会从 GitHub 仓库拉取整套 skill 并安装到本地的 skill 目录。
+
+### Claude Code
+
+如果你用 Claude Code，推荐先用上面的 `npx skills add` 安装。安装后主入口就是 `/psy`。
 
 ### Trae Solo
 
-Trae Solo 一个 zip 装一个 skill。从 GitHub Releases 下载最新的 psyskill-版本号.zip，解压后逐个拖进 Trae Solo 的「上传技能」窗口即可。
+Trae Solo 一个 zip 装一个 skill。进入仓库 `skills/` 目录，把每个子文件夹分别压缩成 zip，然后逐个拖进 Trae Solo 的「上传技能」窗口。
 
 ### 手动安装
 
-把整个 `psy-skills` 文件夹放到你的 skill 目录下：
+把仓库 `skills/` 下的所有子文件夹复制到你的 skill 目录：
 
 - Claude Code：`~/.claude/skills/`
 - Codex：`~/.codex/skills/`
