@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# 本地实验和私有文件
+plans/
+chatbot/
+releases/
+dist/
+
+# 旧备份
+*.zip
+
+# 本地 skill bridge（由安装脚本生成，不需要进仓库）
+.claude-plugin/
+
+# 个人项目文件
+mo.txt
