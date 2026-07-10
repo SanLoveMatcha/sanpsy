@@ -36,7 +36,7 @@ description: |
 
 **不适合：**
 - A 类自动行为 → 先用 `/psy-fogg`
-- B 类燃烧行为 → 超出 skill 范围，转介专业治疗
+- B 类失控行为 → 超出 skill 范围，转介专业治疗
 - 动机完全错位 → 回 `/psy-meaning`
 
 ---
